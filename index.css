@@ -1,0 +1,29 @@
+.navbar{
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 500px;
+    padding-right: 100%;
+}
+
+  /*Jag ville inte ha understäcken på alla länk på menu som normalt brukar finnas på default (text-decoration: none;)*/
+  /*Jag vill ha min menu åt vänster sida (float: left;) och texte ska vara centrerad (text-align: center;).*/
+  /*Jag använde (padding) för att kunna separera alla menu link från varandra också för att göra menu lite större.
+  Texten var för liten(font-size: 17px;)*/
+  .navbar a{
+    float: left;
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: 20px;
+    padding: 14px 50px;
+    
+  }
+  
+  /*Här gjort hover på alla webb link (a:hover) för att hovera över menu för att skapa en layer som senare kommer byta
+  färg på menu när man hoverar musen över*/
+  .navbar a:hover{
+    color: black;
+    background-color: white;
+  }
